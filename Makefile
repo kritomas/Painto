@@ -2,7 +2,7 @@ COMPILER=em++
 SRC=src/*.cpp
 OUTPUT=deploy/wasm.js
 
-FLAGS=--bind
+FLAGS=--bind -O0
 
 INCLUDE=-Iinclude
 
